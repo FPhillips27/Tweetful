@@ -11,3 +11,48 @@
  *= require_self
  *= require_tree .
  */
+ 
+ body {
+    background-image: -webkit-radial-gradient(center, circle cover, rgb(148, 510, 248), rgb(58, 146, 200));
+    background-image:    -moz-radial-gradient(center, circle cover, rgb(148, 510, 248), rgb(58, 146, 200));
+    background-image:         radial-gradient(center, circle cover, rgb(148, 510, 248), rgb(58, 146, 200));
+  }
+
+#user-info {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #FFF , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #FFF, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #FFF, #222); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #FFF , #DEE); /* Standard syntax */    
+    list-style:none;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    margin-top: -.02em;
+    z-index:1;
+    border-bottom: 1px solid #FFF;
+}
+
+.pad-right {
+    padding-right: 1em;
+}
+
+ol hr {
+	border-top: none;
+	border-bottom:1px solid #FFF;
+}
+
+ol {
+    list-style-type:none;
+    width:90%;
+}
+
+#nav-links {
+    background-color: #222;
+    list-style-type: none;
+    margin-top: -1em;
+}
+
+#nav-links a {
+    color:#55acee;
+    padding-left: 2.65em;
+}

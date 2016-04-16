@@ -10,10 +10,10 @@
 
     <%= content_tag :div do %>
       <%= f.password_field :password, :placeholder => "Password" %>
-      <%= f.errors_for :password %>
+      <%= f.errors_for :password %><br>
       <%= f.submit "Sign in" %>
     <% end %>
-    <label><%= f.check_box :remember_me %> Remember me</label> -
-    <%= link_to "Forgot password?", new_user_password_path %>
+    <label><%= f.check_box :remember_me %> Remember me</label> 
+    <br><%= link_to "Forgot password?", new_user_password_path %>
   </div>
 <% end %>

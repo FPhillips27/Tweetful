@@ -1,14 +1,16 @@
 <%= render :partial => 'shared/left_nav' %>
-<h4>Who to follow</h4>
-<p>Tweetful accounts in alpabetical order.</p>
-<hr />
+<h4 style="margin-left: 1em">Who to follow</h4>
+<p style="margin-left: 1.5em">Tweetful accounts in alpabetical order.</p>
 <ol>
   <% @users.each do |user| %>
     <li>
-      <%= content_tag :strong, user.name %>
-      <%= content_tag :span, "@"+user.username %>
+      <%= content_tag :strong, user.name, :class => 'pull-left text-middle' %>
+      <%= content_tag :span, "@"+user.username, :class => 'text-muted pad-10 text-middle' %>
       <%= follow_link(user) %>
     </li>
-    <li><hr></li>
+    <li><hr class="flat"></li>
   <% end %>
 </ol>
+<footer>
+  Contact us: <span><a href="admin@tweetful.io">admin@tweetful.io</a></span>
+</footer>
