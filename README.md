@@ -17,3 +17,7 @@ My contributions to my modified version are:
 It was a valuable learning process. This excercise walked me through understanding and modified Dynamic Views within a Rails app.
 I had a HTML and CSS background prior to this course, so it was mindblowing to me the first time I learned I can combine Ruby code with HTML.
 The possibilities are endless!
+
+Here are screenshots illustrating how big of a change occurred in the CSS between the initial version of Tweetful and my fork.
+![Screenshot of the initial version of Tweetful](app/assets/images/tweetfulInitialLook.png?raw=true "Initial version of Tweetful")
+![Screenshot of my fork of Tweetful](app/assets/images/tweetfulRevised.png?raw=true "My fork of Tweetful")
