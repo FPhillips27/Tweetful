@@ -13,7 +13,6 @@ My contributions to my modified version are:
  * Current User Info Box
  * Tweet display
  * The initial login page you see if you attempt to access Tweetful without being logged in,
- * 
 
 It was a valuable learning process. This excercise walked me through understanding and modified Dynamic Views within a Rails app.
 I had a HTML and CSS background prior to this course, so it was mindblowing to me the first time I learned I can combine Ruby code with HTML.
