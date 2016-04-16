@@ -19,6 +19,7 @@ I had a HTML and CSS background prior to this course, so it was mindblowing to m
 The possibilities are endless!
 
 Here are screenshots illustrating how big of a change occurred in the CSS between the initial version of Tweetful and my fork.
+
 Initial Version:
 ![Screenshot of the initial version of Tweetful](app/assets/images/tweetfulInitialLook.png?raw=true "Initial version of Tweetful")
 My Fork:
