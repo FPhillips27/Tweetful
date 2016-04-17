@@ -24,7 +24,7 @@ body {
 }
 
 nav {
-  background-image: image-url('twitter_web_sprite_bgs.png');
+  background-color: #222;
   background-repeat: repeat-x;
   min-height: 40px !important;
 }
@@ -46,6 +46,7 @@ nav {
   height: 21px;
   float: left;
   margin-top: 10px;
+  margin-left: 2.5em;
 }
 
 .container {
@@ -148,7 +149,7 @@ nav {
 }
 
 .alert-float {
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 1050;
   color: white;
@@ -176,4 +177,54 @@ table.stats small {
 
 table.stats td:first-child {
   padding-left: 18px;
+}
+
+.btn {
+  background: #000;
+  color: #FFF;
+  border: none;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFF;
+  color: #000;
+  border: none;
+}
+
+.btn:active {
+  background: #55acee;
+  color: #000;
+  border: none;
+}
+
+.btn-nav {
+  color: #FFF;
+  border: 1px solid #FFF;
+  text-decoration: none;
+}
+
+
+.btn-nav:hover {
+  background: #55acee;
+  color: #000;
+  border: 1px solid #55acee;
+}
+
+
+.btn-nav a {
+  color: #FFF;
+}
+
+
+.btn-nav a:hover {
+  color: #FFF;
+}
+
+.btn-nav a:active {
+  color: #FFF;
+}
+
+#short-pages {
+  margin-top:33em;
 }

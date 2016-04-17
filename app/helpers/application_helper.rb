@@ -23,7 +23,7 @@ module ApplicationHelper
   # call to the #active_class method.
   #
   def nav_item(name, path)
-    content_tag(:li, link_to(name, path), :class => active_class(name))
+    content_tag(:button, link_to(name, path), :class => 'btn btn-nav',)
   end
 
   # Generates HTML for notices based on the flash variable. Leverages #notice_class to

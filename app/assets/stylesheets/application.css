@@ -50,9 +50,52 @@ ol {
     background-color: #222;
     list-style-type: none;
     margin-top: -1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 2.5em;
+    color:#FFF;
+}
+
+#nav-links:hover {
+    color:#000;
 }
 
 #nav-links a {
-    color:#55acee;
-    padding-left: 2.65em;
+    color:#FFF;
+    text-decoration:none;
+}
+
+#nav-links a:hover {
+    color:#FFF;
+}
+
+#nav-links a:active {
+    color:#000;
+}
+
+#nav-links-notweet {
+    background-color: #222;
+    list-style-type: none;
+    margin-top: -1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 2.5em;
+    color:#FFF;
+}
+
+#nav-links-notweet:hover {
+    color:#000;
+}
+
+#nav-links-notweet a {
+    color:#FFF;
+    text-decoration:none;
+}
+
+#nav-links-notweet a:hover {
+    color:#FFF;
+}
+
+#nav-links-notweet a:active {
+    color:#000;
 }
