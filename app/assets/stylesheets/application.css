@@ -13,9 +13,10 @@
  */
  
  body {
-    background-image: -webkit-radial-gradient(center, circle cover, rgb(148, 510, 248), rgb(58, 146, 200));
-    background-image:    -moz-radial-gradient(center, circle cover, rgb(148, 510, 248), rgb(58, 146, 200));
-    background-image:         radial-gradient(center, circle cover, rgb(148, 510, 248), rgb(58, 146, 200));
+    background-image: -webkit-radial-gradient(center, circle cover, rgb(148, 210, 248), rgb(58, 146, 200));
+    background-image:    -moz-radial-gradient(center, circle cover, rgb(148, 210, 248), rgb(58, 146, 200));
+    background-image:         radial-gradient(center, circle cover, rgb(148, 210, 248), rgb(58, 146, 200));
+    /*Initially all of the 210s in the 3 lines above were set to 510 per the curriculum's specifications. It was pretty, but that was causing my Capybara tests to fail so I set them to 210. */
   }
 
 #user-info {

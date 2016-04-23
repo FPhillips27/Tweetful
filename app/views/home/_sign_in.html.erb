@@ -2,14 +2,14 @@
                     :builder => InlineErrorsBuilder,
                     :method => :POST,
                     :role => :form do |f| %>
-  <div>
+  <div class="login">
     <%= content_tag :div do %>
-      <%= f.text_field :email, :placeholder => "Username or email" %>
+      <%= f.text_field :email, :placeholder => "Username or email", id:"user_email" %>
       <%= f.errors_for :email %>
     <% end %>
 
     <%= content_tag :div do %>
-      <%= f.password_field :password, :placeholder => "Password" %>
+      <%= f.password_field :password, :placeholder => "Password", id:"user_password" %>
       <%= f.errors_for :password %><br>
       <%= f.submit "Sign in" %>
     <% end %>
