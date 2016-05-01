@@ -26,10 +26,10 @@ Feature: The Follows page
   Scenario: As a user, if I click to follow a user, the Follow button should change to the Unfollow button. If I click again to Unfollow, it should change the Follow button.
     When I am on the Follows page
     Then I will see the text "Follow"
-    When I click "li:nth-child(5) input.btn.btn-primary.mar-top-5"
+    When I click the first Follow button
     Then I will see the text "Unfollow"
     And I will see the text "You are following @Elmore"
-    When I click "li:nth-child(5) input.btn.btn-danger.mar-top-5"
+    When I click first "Unfollow"
     Then I will see the text "You are no longer following @Elmore"
     And I will see the text "Follow"
     
@@ -45,6 +45,6 @@ Feature: The Follows page
   Scenario: As a user, if I click the Tweets link, I navigate to the Tweets page.
     When I am on the Follows page
     And I click the Tweets page link
-    Then I will see the text "Tweets"
+    Then I will see the text "Recent Tweets"
     And I will see the list of recent Tweets
     
