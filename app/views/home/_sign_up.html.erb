@@ -1,9 +1,8 @@
-<h4>New to Tweetful? <span>Sign up</span></h4>
+<h4>New to Tweetful? <span>Sign up!</span></h4>
 <%= form_for resource, :url => user_registration_path,
                        :builder => InlineErrorsBuilder,
                        :method => :POST,
                        :role => :form do |f| %>
-  <div>
     <%= content_tag :div do %>
       <%= f.text_field :name, :placeholder => "Full name" %>
       <%= f.errors_for :name %>
@@ -23,7 +22,5 @@
       <%= f.password_field :password, :placeholder => "Password" %>
       <%= f.errors_for :password %>
     <% end %>
-
     <%= f.submit "Sign up for Tweetful" %>
-  </div>
 <% end %>

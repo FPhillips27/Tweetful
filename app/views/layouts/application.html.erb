@@ -7,6 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="wrapper">
 <nav id="nav-bar">
   <a class="nav-logo-link" href="/">
     <span class="icon bird-topbar-blue"></span>
@@ -15,5 +16,9 @@
 </nav>
 <%= notices %>
 <%= yield %>
+</div>
+<footer>
+  Contact us: <span><a href="admin@tweetful.io">admin@tweetful.io</a></span>
+</footer>
 </body>
 </html>
