@@ -19,5 +19,3 @@ Feature: The Tweetful Tweets Page
     When I am on the Tweets page
     Then I will see the text "Tweets"
     And I will see the list of recent Tweets
-
-  Scenario: As a user, I should be able to see the 
