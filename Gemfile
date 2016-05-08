@@ -50,7 +50,7 @@ group :development, :test do
   gem 'ffaker'
   # Use Shoulda Matchers for validation and association testing: https://github.com/thoughtbot/shoulda-matchers
   gem 'shoulda-matchers'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
   gem 'pry-byebug'

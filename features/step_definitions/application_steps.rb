@@ -1,16 +1,28 @@
-Given(/^that I am logged in as our test user$/) do
-    visit '/'
-    find('.login').fill_in('user_email', :with => 'testuser@invalid.com')
-    find('.login').fill_in('user_password', :with => 'testpassword')
-    first('input[type="submit"]').click
-    page.has_text?('Test User')
-    page.has_text?('Sign out')
-end
-
 Then(/^I will see the text "([^"]*)" as the current user's username$/) do |name|
     page.has_text?('#{name}')
 end
 
 Then(/^I will see the text "([^"]*)" as the current user's full name$/) do |fullName|
     page.has_text?('#{fullName}')
+end
+
+Then(/^I will not see the text "([^"]*)"$/) do |text|
+    page.has_no_text?('#{text}')
+end
+
+Given (/^I perform HTTP authentication as "([^\"]*)\/([^\"]*)"$/) do |username, password|
+    puts "id/pswd: #{username}/#{password}"
+    ### Following works ONLY if performed first before even going to a page!!!
+    if page.driver.respond_to?(:basic_auth)
+        puts 'Responds to basic_auth'
+        page.driver.basic_auth(username, password)
+    elsif page.driver.respond_to?(:basic_authorize)
+        puts 'Responds to basic_authorize'
+        page.driver.basic_authorize(username, password)
+    elsif page.driver.respond_to?(:browser) && page.driver.browser.respond_to?(:basic_authorize)
+        puts 'Responds to browser_basic_authorize'
+        page.driver.browser.basic_authorize(username, password)
+    else
+        raise "I don't know how to log in!"
+    end
 end

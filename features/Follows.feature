@@ -1,6 +1,7 @@
 Feature: The Follows page
   Background:
-    Given that I am logged in as our test user
+    Given a valid user
+    And I am logged in as our test user
 
   Scenario: As I user, I should see who Tweetful suggests I follow. These users should be identified both by their real name and their Tweetful handle.
     When I am on the Follows page
