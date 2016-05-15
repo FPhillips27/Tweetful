@@ -1,8 +1,18 @@
-Given /^a valid user$/ do
+Given(/^a valid user$/) do
   @user = User.create!({
              :email => "testuser@invalid.com",
              :name => "Testy McTesterson",
-             :username => "Test User",
+             :username => "TestUser",
+             :password => "testpassword",
+             :password_confirmation => "testpassword"
+           })
+end
+
+Given(/^a second valid user$/) do
+  @user = User.create!({
+             :email => "testuser2@invalid.com",
+             :name => "Testy McTesterson",
+             :username => "TestUser2",
              :password => "testpassword",
              :password_confirmation => "testpassword"
            })
@@ -13,7 +23,7 @@ Given(/^I am logged in as our test user$/) do
     find('.login').fill_in('user_email', :with => 'testuser@invalid.com')
     find('.login').fill_in('user_password', :with => 'testpassword')
     first('input[type="submit"]').click
-    page.has_text?('Test User')
+    page.has_text?('TestUser')
     page.has_text?('Sign out')
     page.has_no_text?('Invalid email or password.')
 end

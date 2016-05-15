@@ -1,16 +1,15 @@
 Feature: The Follows page
   Background:
     Given a valid user
+    And a second valid user
     And I am logged in as our test user
 
   Scenario: As I user, I should see who Tweetful suggests I follow. These users should be identified both by their real name and their Tweetful handle.
     When I am on the Follows page
     Then I will see the text "Who to follow"
     And I will see the text "Tweetful accounts in alpabetical order."
-    And I will see the text "Alaina Ortiz"
-    And I will see the text "@Alberto"
-    And I will see the text "Warren Kiehn"
-    And I will see the text "@Aglae"
+    And I will see the text "Testy McTesterson"
+    And I will see the text "@TestUser2"
 
   Scenario: As a user, if I am already following someone when I navigate to the page, then I should see the text Unfollow in the button underneath their name.
     When I am on the Follows page
@@ -30,7 +29,7 @@ Feature: The Follows page
     When I click the first Follow button
     Then I will see the text "Unfollow"
     And I will see the text "You are following @Elmore"
-    When I click first "Unfollow"
+    When I click the first Unfollow button
     Then I will see the text "You are no longer following @Elmore"
     And I will see the text "Follow"
     
