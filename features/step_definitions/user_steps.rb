@@ -11,7 +11,7 @@ end
 Given(/^a second valid user$/) do
   @user = User.create!({
              :email => "testuser2@invalid.com",
-             :name => "Testy McTesterson",
+             :name => "Testessa Tester",
              :username => "TestUser2",
              :password => "testpassword",
              :password_confirmation => "testpassword"
