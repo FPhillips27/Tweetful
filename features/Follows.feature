@@ -28,9 +28,9 @@ Feature: The Follows page
     Then I will see the text "Follow"
     When I click the first Follow button
     Then I will see the text "Unfollow"
-    And I will see the text "You are following @Elmore"
+    And I will see the text "You are following @TestUser2"
     When I click the first Unfollow button
-    Then I will see the text "You are no longer following @Elmore"
+    Then I will see the text "You are no longer following @TestUser2"
     And I will see the text "Follow"
     
   Scenario: As a user, if I am on the Follow page I should see my own user name
