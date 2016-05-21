@@ -29,7 +29,7 @@ Here are screenshots illustrating how big of a change occurred in the CSS betwee
 ####Initial Version:
 ![Screenshot of the initial version of Tweetful](app/assets/images/tweetfulInitialLook.png?raw=true "Initial version of Tweetful")
 ####My Fork:
-![Screenshot of my fork of Tweetful](app/assets/images/tweetfulRevised2.png?raw=true "My fork of Tweetful")
+![Screenshot of my fork of Tweetful](app/assets/images/tweetfulRevised3.png?raw=true "My fork of Tweetful")
 
 ## Run Cucumber Tests
 -------------
