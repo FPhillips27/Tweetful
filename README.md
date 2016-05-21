@@ -37,6 +37,10 @@ Here are screenshots illustrating how big of a change occurred in the CSS betwee
 ```
 bundle exec cucumber
 ```
+OR
+```
+rake cucumber
+```
 
 Authors
 -------
@@ -51,3 +55,4 @@ Authors
 
 **Forrest Phillips** (_This Fork_)
 - https://github.com/FPhillips27
+- 
