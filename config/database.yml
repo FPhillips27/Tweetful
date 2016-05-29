@@ -4,8 +4,12 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: postgresql
+  database: tweetful_development
+  username: postgres
+  password: tR4nsf3redDB?
+  encoding: utf8
+  template: template0
   pool: 5
   timeout: 5000
 
@@ -13,14 +17,22 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test: &test
-  adapter: sqlite3
-  database: db/test.sqlite3
+  adapter: postgresql
+  database: tweetful_test
+  username: postgres
+  password: tR4nsf3redDB?
+  encoding: utf8
+  template: template0
   pool: 5
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: tweetful_production
+  username: postgres
+  password: tR4nsf3redDB?
+  encoding: utf8
+  template: template0
   pool: 5
   timeout: 5000
 
