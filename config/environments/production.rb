@@ -79,4 +79,5 @@ Tweetful::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 end
 
-config.secret_key_base = ENV[“SECRET_KEY_BASE”]
+config.secret_key_base = ENV["SECRET_KEY_BASE"]
+
