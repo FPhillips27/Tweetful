@@ -48,7 +48,7 @@ Then(/^I will see the text You are no longer following @TestUser2$/) do
 end
 
 When(/^I click the Tweets page link$/) do
-    click_on('Tweets', :match => :first)
+    click_on('Recent Tweets', :match => :first)
 end
 
 Then(/^I will see the text Recent Tweets$/) do
