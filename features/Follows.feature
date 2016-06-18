@@ -13,7 +13,10 @@ Feature: The Follows page
 
   Scenario: As a user, if I am already following someone when I navigate to the page, then I should see the text Unfollow in the button underneath their name.
     When I am on the Follows page
-    Then I will see the text Unfollow
+    And I click the first Follow button
+    And I am on the Follows page 
+    #Above navigates back to the Follows page to ensure 'Unfollow' remains after reloading
+    Then I will see the Unfollow button
     
   Scenario: As a user, if I am already not following someone when I navigate to the page, then I should see the text Follow in the button underneath their name.
     When I am on the Follows page
@@ -27,8 +30,7 @@ Feature: The Follows page
     When I am on the Follows page
     Then I will see the text Follow
     When I click the first Follow button
-    Then I will see the text Unfollow
-    And I will see the text You are following @TestUser2
+    Then I will see the text You are following @TestUser2
     When I click the first Unfollow button
     Then I will see the text You are no longer following @TestUser2
     And I will see the text Follow
@@ -45,6 +47,6 @@ Feature: The Follows page
   Scenario: As a user, if I click the Tweets link, I navigate to the Tweets page.
     When I am on the Follows page
     And I click the Tweets page link
-    Then I will see the text Recent Tweets
+    Then I wait until I see the Tweets page
     And I will see the list of recent Tweets
     

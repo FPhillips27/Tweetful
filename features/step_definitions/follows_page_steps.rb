@@ -14,3 +14,17 @@ end
 When(/^I click the Follow page link$/) do
     click_on('Follow Users', :match => :first)
 end
+
+When(/^I wait until I see the text Unfollow$/) do
+    find('#wrapper').should have_content('Unfollow')
+end
+
+
+When(/^I wait until I see the Tweets page/) do
+    page.should have_content('Recent Tweets')
+end
+
+
+Then(/^I will see the Unfollow button$/) do
+    page.should have_selector("input[type=submit][value='Unfollow']")
+end

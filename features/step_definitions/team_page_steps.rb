@@ -39,16 +39,16 @@ Then(/^I will see the text admin@tweetful.io$/) do
     expect(page).to have_content('admin@tweetful.io')
 end
 
-Then(/^I will see the text You are following @TestUser(\d+)$/) do |arg1|
-    expect(page).to have_content('You are following @TestUser')
+Then(/^I will see the text You are following @TestUser2$/) do
+    expect(page).to have_content('You are following @TestUser2')
 end
 
-Then(/^I will see the text You are no longer following @TestUser(\d+)$/) do |arg1|
-    expect(page).to have_content('You are no longer following @TestUser')
+Then(/^I will see the text You are no longer following @TestUser2$/) do
+    expect(page).to have_content('You are no longer following @TestUser2')
 end
 
 When(/^I click the Tweets page link$/) do
-    click_on('#navItemTweets', :match => :first)
+    click_on('Tweets', :match => :first)
 end
 
 Then(/^I will see the text Recent Tweets$/) do
