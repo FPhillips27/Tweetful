@@ -3,10 +3,10 @@
 <ol class="list-unstyled">
   <% @tweets.each do |tweet| %>
     <li>
-      <%= content_tag :strong, tweet.user.name %>
-      <%= content_tag :small, "@"+tweet.user.username %>
-      <%= content_tag :small, tweet.created_at.strftime("%b %-d") %>
-      <%= content_tag :p, tweet.content %>
+      <%= content_tag :strong, tweet.user.name, class: 'fullName' %>
+      <%= content_tag :small, "@"+tweet.user.username, class: 'userName' %>
+      <%= content_tag :small, tweet.created_at.strftime("%b %-d"), class: 'createdAt' %>
+      <%= content_tag :p, tweet.content, class:'tweetContent' %>
     </li>
     <li><hr></li>
   <% end %>

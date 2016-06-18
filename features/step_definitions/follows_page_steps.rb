@@ -25,5 +25,5 @@ end
 
 
 Then(/^I will see the Unfollow button$/) do
-    page.should have_selector("input[type=submit][value='Unfollow']")
+    find("input[type=submit][value='Unfollow']").click
 end
