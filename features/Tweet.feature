@@ -15,7 +15,8 @@ Feature: The Tweetful Tweets Page
     
   Scenario: As a user, I should see the usernames and real names of people who have Tweeted
     When I am on the Tweets page
-    Then I will see the text @TestUserDev
+    And I enter a Tweet
+    Then I will see the text @TestUser in the list of Tweets
 
   Scenario: As a user, if I click the Tweets link, I should remain on the Tweets page
     When I am on the Tweets page

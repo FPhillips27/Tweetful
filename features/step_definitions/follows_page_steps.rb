@@ -7,7 +7,6 @@ When(/^I click the first Follow button$/) do
 end
 
 When(/^I click the first Unfollow button$/) do 
-    binding.pry
     click_on('Unfollow')
 end
 
