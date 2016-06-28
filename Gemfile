@@ -44,6 +44,8 @@ gem 'devise'
 
   # Use FFaker for random seed generation: https://github.com/EmmanuelOga/ffaker
   gem 'ffaker'
+  
+  gem 'rails_12factor'
 
 group :development, :test do
   # Use RSpec for testing: https://github.com/rspec/rspec-rails
