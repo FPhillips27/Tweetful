@@ -2,10 +2,14 @@
 =============
 
 ##Overview
+[![Build Status](https://travis-ci.org/FPhillips27/Tweetful.svg?branch=master)](https://travis-ci.org/FPhillips27/Tweetful)
 ###Outline
 
 This is my modified version of "Tweetful" which was created for the Thinkful course "Essentials of Full Stack Development in Rails."
 I cloned from https://github.com/Thinkful-Ed/Tweetful which was provided by the course.
+
+You can view my fork on Heroku:
+https://morning-spire-56862.herokuapp.com/
 
 #####My contributions to my modified version are:
 * Creating the team page (per the curriculum's instructions)
@@ -55,4 +59,3 @@ Authors
 
 **Forrest Phillips** (_This Fork_)
 - https://github.com/FPhillips27
-- 
