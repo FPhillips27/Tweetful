@@ -1,3 +1,5 @@
+<center>
+<h4>Already love Tweetful? Sign in below.</h4>
 <%= form_for :user, :url => user_session_path,
                     :builder => InlineErrorsBuilder,
                     :method => :POST,
@@ -17,3 +19,4 @@
     <br><%= link_to "Forgot password?", new_user_password_path %>
   </div>
 <% end %>
+</center>
