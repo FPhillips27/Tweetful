@@ -2,7 +2,7 @@
 =============
 
 ##Overview
-[![Build Status](https://travis-ci.org/FPhillips27/Tweetful.svg?branch=master)](https://travis-ci.org/FPhillips27/Tweetful)
+[![Build Status](https://travis-ci.org/FPhillips27/Tweetful.svg?branch=master)](https://travis-ci.org/FPhillips27/Tweetful) [![Code Climate](https://codeclimate.com/github/FPhillips27/Tweetful/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Tweetful) [![Test Coverage](https://codeclimate.com/github/FPhillips27/Tweetful/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Tweetful/coverage)
 ###Outline
 
 This is my modified version of "Tweetful" which was created for the Thinkful course "Essentials of Full Stack Development in Rails."
