@@ -46,6 +46,8 @@ gem 'devise'
   gem 'ffaker'
   
   gem 'rails_12factor'
+  
+  gem "codeclimate-test-reporter", group: :test, require: nil
 
 group :development, :test do
   # Use RSpec for testing: https://github.com/rspec/rspec-rails
