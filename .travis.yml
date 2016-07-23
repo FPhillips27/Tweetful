@@ -4,7 +4,3 @@ rvm:
 
 before_script:
     bundle exec rake db:create db:migrate db:schema:load
-
-addons:
-    code_climate:
-        repo_token: 7d50c1920887cb3c4cf8d90e9953277c6686ac48005d36b258dac5aa018193f9
