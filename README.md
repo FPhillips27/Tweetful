@@ -5,10 +5,11 @@
 [![Build Status](https://travis-ci.org/FPhillips27/Tweetful.svg?branch=master)](https://travis-ci.org/FPhillips27/Tweetful) [![Code Climate](https://codeclimate.com/github/FPhillips27/Tweetful/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Tweetful) [![Test Coverage](https://codeclimate.com/github/FPhillips27/Tweetful/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Tweetful/coverage)
 ###Outline
 
-This is my modified version of "Tweetful" which was created for the Thinkful course "Essentials of Full Stack Development in Rails."
-I cloned from https://github.com/Thinkful-Ed/Tweetful which was provided by the course.
+This is my modified version of "Tweetful. "Tweetful" is a stripped down version of Twitter. I created it as part of the Thinkful course "Essentials of Full Stack Development in Rails."
 
-You can view my fork on Heroku:
+I cloned it from Thinkful's repo https://github.com/Thinkful-Ed/Tweetful.
+
+You can view the most recent stable release of my fork on Heroku:
 https://morning-spire-56862.herokuapp.com/
 
 #####My contributions to my modified version are:
@@ -23,12 +24,11 @@ https://morning-spire-56862.herokuapp.com/
  * Tweetful logo
 * Added Cucumber Tests
 
-It was a valuable learning process. This excercise walked me through understanding and modified Dynamic Views within a Rails app for the first time. I had a HTML and CSS background prior to this course, but it was mindblowing to me the first time I learned I can combine Ruby code with HTML.
+It was a valuable learning process. Creating my version of Tweetful showed me how to understand and change Dynamic Views in Rails. My front-end background before this course was in HTML and CSS so I was happy to learn I can combine Ruby and HTML.
 
 The possibilities are endless!
 
 ##Visual Styling
-Here are screenshots illustrating how big of a change occurred in the CSS between the initial version of Tweetful and my fork.
 
 ####Initial Version:
 ![Screenshot of the initial version of Tweetful](app/assets/images/tweetfulInitialLook.png?raw=true "Initial version of Tweetful")
