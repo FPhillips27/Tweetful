@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe Tweet do
+RSpec.describe Tweet, :type => :model do
   context "associations" do
     it { should belong_to :user }
   end

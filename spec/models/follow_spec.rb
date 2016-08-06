@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe Follow do
+RSpec.describe Follow, :type => :model do
   context "associations" do
     it { should belong_to :user }
     it { should belong_to :following }

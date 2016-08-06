@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe FollowsController do
+RSpec.describe FollowsController, :type => :controller do
   context "when no user is logged in" do
     describe "GET index" do
       subject { response }
