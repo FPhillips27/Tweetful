@@ -40,7 +40,7 @@ end
 # gem 'capistrano', group: :development
 
 # Use Devise for authentication: https://github.com/plataformatec/devise#getting-started
-gem 'devise', '4.1.1'
+gem 'devise'
     #Updating devise breaks Cucumber tests. Be careful on when to update this.
 
   # Use FFaker for random seed generation: https://github.com/EmmanuelOga/ffaker
