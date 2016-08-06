@@ -2,7 +2,8 @@
 =============
 
 ##Overview
-[![Build Status](https://travis-ci.org/FPhillips27/Tweetful.svg?branch=master)](https://travis-ci.org/FPhillips27/Tweetful) [![Code Climate](https://codeclimate.com/github/FPhillips27/Tweetful/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Tweetful) [![Test Coverage](https://codeclimate.com/github/FPhillips27/Tweetful/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Tweetful/coverage)
+[![Build Status](https://travis-ci.org/FPhillips27/Tweetful.svg?branch=master)](https://travis-ci.org/FPhillips27/Tweetful) [![Code Climate](https://codeclimate.com/github/FPhillips27/Tweetful/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Tweetful) [![Test Coverage](https://codeclimate.com/github/FPhillips27/Tweetful/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Tweetful/coverage) [![Dependency Status](https://gemnasium.com/badges/github.com/FPhillips27/Tweetful.svg)](https://gemnasium.com/github.com/FPhillips27/Tweetful)
+
 ###Outline
 
 This is my modified version of "Tweetful. "Tweetful" is a stripped down version of Twitter. I created it as part of the Thinkful course "Essentials of Full Stack Development in Rails."
