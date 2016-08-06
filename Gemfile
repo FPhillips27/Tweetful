@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.14.2'
+gem 'rails', '4.1.16'
 
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
@@ -40,7 +40,8 @@ end
 # gem 'capistrano', group: :development
 
 # Use Devise for authentication: https://github.com/plataformatec/devise#getting-started
-gem 'devise'
+gem 'devise', '4.1.1'
+    #Updating devise breaks Cucumber tests. Be careful on when to update this.
 
   # Use FFaker for random seed generation: https://github.com/EmmanuelOga/ffaker
   gem 'ffaker'
