@@ -1,6 +1,6 @@
 class TweetsController < ApplicationController
   # All actions in this controller require the presence of an authenticated user.
-  before_filter :authenticate_user!
+  before_action :authenticate_user!
 
   # GET /tweets
   #
