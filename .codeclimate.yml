@@ -16,6 +16,8 @@ engines:
       - javascript
       - python
       - php
+    exclude_fingerprints:
+    - a493a604b888117652c1c9303270ddfa #Ignoring a duplication in lib/tasks/cucumber.rake because it says to edit at my own peril.
   eslint:
     enabled: true
   fixme:
