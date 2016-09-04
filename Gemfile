@@ -52,7 +52,7 @@ gem 'devise'
 
 group :development, :test do
   # Use RSpec for testing: https://github.com/rspec/rspec-rails
-  gem 'rspec-rails', '3.5.1'
+  gem 'rspec-rails', '3.5.2'
   # Use Factory Girl for Active Record sample instance object creation: https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
   gem 'factory_girl_rails'
   # Use Shoulda Matchers for validation and association testing: https://github.com/thoughtbot/shoulda-matchers
