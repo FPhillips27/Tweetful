@@ -33,7 +33,7 @@ gem 'jbuilder', '2.6.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '0.4.2', require: false
 end
 
 # Use Capistrano for deployment
