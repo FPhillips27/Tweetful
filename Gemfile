@@ -33,7 +33,7 @@ gem 'jbuilder', '2.6.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '0.4.2', require: false
 end
 
 # Use Capistrano for deployment
@@ -57,7 +57,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   # Use Shoulda Matchers for validation and association testing: https://github.com/thoughtbot/shoulda-matchers
   gem 'shoulda-matchers'
-  gem 'cucumber-rails', '1.4.4', :require => false
+  gem 'cucumber-rails', '1.4.5', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
   gem 'pry-byebug'
